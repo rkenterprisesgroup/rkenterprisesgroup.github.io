@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html * {
+    outline: 0 !important;
+}
+
+body
+{
+background-color:#00BCD7;
+font-family: 'Raleway', sans-serif;
+}
+
+.MainLogoText {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+.middleSection
+{
+background-color:#FFFFFF;
+padding-right: 0px;
+padding-left: 0px;
+
+}
+.card {
+  border-radius: 2px;
+  display: block;
+  float: left;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  color:#fff;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+  color:#fff;
+}
+
+.card-1:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  color:#fff;
+}
+.btn1 {
+    background: #FF2A67 none repeat scroll 0% 0%;
+    border-radius: 2px;
+    height: 40px;
+    margin: 1rem;
+    position: relative;
+    padding: 10px 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.btn1a {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn1a:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!-- <?php require 'includes/PHPMailerLib/PHPMailerAutoload.php'; ?>-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Enquiry</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  </head>
+  <body>
+
+<div class="container">
+	<!-- Part 1 start -->
+	<div class="row">
+		<div class="col-md-9">
+		</div>
+		<div class="col-md-3 text-right">
+			<img style="padding:10px 0px;" alt="Image Preview" src="img/SmallLogo.png">
+		</div>
+	</div>
+	<!-- Part 1 End -->
+	
+	<!-- Part 2 start -->
+	<div class="row">
+		<div class="col-md-9 Section1 BGGrey">
+			<div class="row">
+				<div class="col-md-4 left-Sidebar1">
+					<a href="home.html"><img class="MainLogo "alt="Image Preview" src="img/01-banner-logo.png"></a>
+				</div>
+				<div class="col-md-8">
+					<img class="sliderImg" alt="Image Preview" src="img/Slider2.png">
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-4 left-Sidebar2">
+					
+					<!-- Navigation Menu Start -->
+					<div class="nav-side-menu">
+						<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+					  
+							<div class="menu-list">
+					  
+								<ul id="menu-content" class="menu-content collapse out">
+									<li>
+									  <a href="About-us.html">
+									  <i class="fa fa-square "></i> About us
+									  </a>
+									</li>
+
+									<li data-toggle="collapse" data-target="#service" class="collapsed">
+									  <a href="#"><i class="fa fa-square "></i> Services <span class="arrow"></span></a>
+									</li>  
+									<ul class="sub-menu collapse" id="service">
+									  <li><a href="services-waterproofing.html">Water Proofing</a></li>
+									  <li><a href="Concrete-Floor-System.html">Concrete Floor System</a></li>
+									  <li><a href="Specialty-Building-Products.html">Specialty Building Products</a></li>
+									  <li><a href="Soil-Filter-cum-drainage-System.html">Soil filter cum drainage system for landscape</a></li>
+									</ul>
+
+
+									<li>
+									  <a href="client-list.html">
+									  <i class="fa fa-square "></i> Client List
+									  </a>
+									  </li>
+
+
+									 <li>
+									  <a href="Photo-Gallary.html">
+									  <i class="fa fa-square "></i> Photo Gallary
+									  </a>
+									  </li>
+									
+									<li>
+									  <a href="Contact-us.html">
+									  <i class="fa fa-square "></i> Contact us
+									  </a>
+									</li>
+									
+									<li class="active">
+									  <a href="Enquiry.html">
+									  <i class="fa fa-square"></i> Enquiry
+									  </a>
+									</li>
+									
+								</ul>
+						 </div>
+					</div>
+					<!-- Navigation Menu End -->
+				</div>
+				<div class="col-md-8 MainContent">
+				
+					<h5 class="BluePatch">Enquiry</h5>
+					<form class="form-horizontal" name="contactform" method="post"  action="<?php echo $_SERVER['PHP_SELF'];?>" enctype="multipart/form-data">
+						<fieldset>
+
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="Company Name">Company Name</label>  
+						  <div class="col-md-8">
+						  <input id="Company Name" name="CompanyName" placeholder="" class="form-control input-md" type="text">
+							
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="Contact Person">Contact Person</label>  
+						  <div class="col-md-8">
+						  <input id="Contact Person" name="ContactPerson" placeholder="" class="form-control input-md" type="text">
+							
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="Office No">Office No</label>  
+						  <div class="col-md-8">
+						  <input id="Office No" name="OfficeNo" placeholder="" class="form-control input-md" type="text">
+							
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="Mobile No">Mobile No</label>  
+						  <div class="col-md-8">
+						  <input id="Mobile No" name="MobileNo" placeholder="" class="form-control input-md" type="text">
+							
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="Fax">Fax</label>  
+						  <div class="col-md-8">
+						  <input id="Fax" name="Fax" placeholder="" class="form-control input-md" type="text">
+							
+						  </div>
+						</div>
+
+						<!-- Textarea -->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="Contact Deatails">Contact Deatails</label>
+						  <div class="col-md-8">                     
+							<textarea class="form-control" id="ContactDetails" name="ContactDetails"></textarea>
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="Email Address">Email Address</label>  
+						  <div class="col-md-8">
+						  <input id="Email Address" name="EmailAddress" placeholder="" class="form-control input-md" type="text">
+							
+						  </div>
+						</div>
+
+						<!-- Textarea -->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="Brief Description of requirment">Brief Description of requirment</label>
+						  <div class="col-md-8">                     
+							<textarea class="form-control" id="Brief Description of requirement" name="BriefRequirement"></textarea>
+						  </div>
+						</div>
+
+						<!-- Multiple Checkboxes (inline) -->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="Services Intersted In">Services Intersted In</label>
+						  <div class="col-md-8">
+							<label class="checkbox-inline" for="Services Intersted In-0" style="margin-left: 10px;">
+							  <input name="ServicesInterstedIn" id="Services Intersted In-0" value="Water Proofing" type="checkbox">
+							  Water Proofing
+							</label>
+							<label class="checkbox-inline" for="Services Intersted In-1">
+							  <input name="ServicesInterstedIn" id="Services Intersted In-1" value="Structural Repairs" type="checkbox">
+							  Structural Repairs
+							</label>
+							<label class="checkbox-inline" for="Services Intersted In-2">
+							  <input name="ServicesInterstedIn" id="Services Intersted In-2" value="Floor Finishes" type="checkbox">
+							  Floor Finishes
+							</label>
+							<label class="checkbox-inline" for="Services Intersted In-3">
+							  <input name="ServicesInterstedIn" id="Services Intersted In-3" value="Concrete floor hardeners" type="checkbox">
+							  Concrete floor hardeners
+							</label>
+							<label class="checkbox-inline" for="Services Intersted In-4">
+							  <input name="ServicesInterstedIn" id="Services Intersted In-4" value="Fibre Reinforcement" type="checkbox">
+							  Fibre Reinforcement
+							</label>
+							<label class="checkbox-inline" for="Services Intersted In-5">
+							  <input name="ServicesInterstedIn" id="Services Intersted In-5" value="Concrete Floor treatment for Floor Finishes" type="checkbox">
+							  Concrete Floor treatment for Floor Finishes
+							</label>
+							<label class="checkbox-inline" for="Services Intersted In-6">
+							  <input name="ServicesInterstedIn" id="Services Intersted In-6" value="Joint Sealants &amp; Joint Systems for Industrial Floors" type="checkbox">
+							  Joint Sealants &amp; Joint Systems for Industrial Floors
+							</label>
+							<label class="checkbox-inline" for="Services Intersted In-7">
+							  <input name="ServicesInterstedIn" id="Services Intersted In-7" value="External Facade Systems" type="checkbox">
+							  External Facade Systems
+							</label>
+						  </div>
+						</div>
+
+						<!-- Button (Double) -->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="Submit"></label>
+						  <div class="col-md-8">
+							 <button id="Submit" type="submit" name="ContactUs" class="btn btn-primary">Submit</button>
+							<button type="reset" class="btn btn-info">Reset</button>
+						  </div>
+						</div>
+
+						</fieldset>
+						</form>
+
+					
+					
+					
+<!---------------------------------------- Copyright Start -------------------------------------------->					
+					<div class="Copyright">
+						<P>Trademark & Tradenames mentioned are owned by their respective owners.<br/>
+                           for more information on the website contact the webmaster<br/>
+                           ©R.K.Enterprises, Alright Reserved 2007.<br/>
+						</p>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>	
+		<div class="col-md-3">
+			<div class="row BGGrey right-Sidebar1">
+				<h5 class="BlackPatch">News</h5>
+				<marquee direction="up" scrollamount="2">
+					<p class="SBContent">R.K.Enterprises complete Phase 1 of concrete driveway works  their project in Bhandup, Mumbai. Concrete driveway was carried out using M30 grade high performance concrete using blend of Fly ash and Micro Silica with Fibermesh fibres. Total area completed upto date is 1,25,000 sq. Ft.</p>
+					<p class="SBContent">R.K.Enterprises have bagged waterproofing contract for  industries for their Twin Tower commercial project in Navi Mumbai using HYDROCAP system.</p>
+					<p>R.K.Enterprises have got the super structure works for  project of 5 Star hotel chain under the brand name ISTA at Amritsar in Punjab. Already the below grade waterproofing was carried out by R.K.Enterprises and now the complete project is being executed by the waterproofing system of R.K.Enterprises.</p>
+					<p>R.K.Enterprises have bagged waterproofing system and thermal insulation system  for  Industries Power plant coming up at Gadimoga in Andhra Pradesh. R.K.Enterprises was chosen as the preferred waterproofing turnkey contracts company based on the varied solutions provided for various situations through rich experience of more than 43 years in the field.</p>
+					<p>R.K.Enterprises havebagged the waterproofing works for the prestigious mall project in Pune using the HYDROCAP System. The total area to be waterproofed in the basement and walls is more than 45,000 sq.mtr.</p>
+					<p>R.K.Enterprises complete composite concrete flooring system  This is a project wherein the client entrusted R.K.Enterprises flooring division to give a turnkey solution for their manufacturing plant.</p>
+					<p>R.K.Enterprises complete Phase 1 of concrete driveway works  their project in Bhandup, Mumbai. Concrete driveway was carried out using M30 grade high performance concrete using blend of Fly ash and Micro Silica with Fibermesh fibres. Total area completed upto date is 1,25,000 sq. Ft.</p>
+				</marquee>
+				
+			</div>
+			
+			<div class="row BGGrey right-Sidebar2">
+				<h5 class="BlackPatch">International Alliances</h5>
+				<img class="SBContentIMG" src="img/InternationalAll1.png"/>
+				
+			</div>
+		</div>
+	</div>
+	<!-- Part 2 end -->
+	
+
+	
+	
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+	
+	<!-- php script Start here -->
+<!--	
+<?php  
+//$EmailMessage = "";
+if(isset($_POST['ContactUs']))
+	{
+		$ContactEmail = new PHPMailer(); // create a new object
+		/*php mailer smtp setting start*/
+		$pass1 = '454';
+		$ContactEmail->IsSMTP(); // enable SMTP
+		$ContactEmail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
+		$ContactEmail->SMTPAuth = true; // authentication enabled
+		$ContactEmail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
+		$ContactEmail->Host = "smtp.gmail.com";
+		$ContactEmail->Port = 465; // or 587
+		$ContactEmail->IsHTML(true);
+		$ContactEmail->Username = "mc@gmail.com";
+		$ContactEmail->Password = $pass1;
+		$ContactEmail->SetFrom("mc@gmail.com");
+		$email_ID1 = "mc@gmail.com";
+
+	   $CompanyName = $_POST['CompanyName'];
+	   $ContactPerson = $_POST['ContactPerson'];
+	   $OfficeNo = $_POST['OfficeNo'];
+	   $MobileNo = $_POST['MobileNo'];
+	   $Fax = $_POST['Fax'];
+	   $ContactDetails = $_POST['ContactDetails'];
+	   $EmailAddress = $_POST['EmailAddress'];
+	   $BriefRequirement = $_POST['BriefRequirement'];
+	   $ADMemail = 'macilentechnologies2014@gmail.com';
+	   
+	   $datee =date("d/M/Y");
+	   $timee =date('h:i:s:A');
+	   
+	   $bodytext ='<html><body>
+	   <h4>Website Visitor From RK Enterprises</h4>
+					<h4>Enquiry Deatails:</h4>
+				   <p>CompanyName : '.$CompanyName.'</p>
+				   <p>ContactPerson : '.$ContactPerson.'</p>
+				   <p>OfficeNo : '.$OfficeNo.'</p>
+				   <p>MobileNo : '.$MobileNo.'</p>
+				   <p>Fax: '.$Fax.'</p>
+				   <p>ContactDetails : '.$ContactDetails.'</p>
+				   <p>EmailAddress : '.$EmailAddress.'</p>
+				   <p>BriefRequirement: '.$BriefRequirement.'</p></body></html>';
+		
+		$ContactEmail->FromName  = 'MACiLEN';
+		$ContactEmail->Subject   = 'Message MACiLEN';
+		$ContactEmail->Body      = $bodytext;
+		$ContactEmail->AddAddress($email_ID1);
+		$ContactEmail->addBCC('mc@gmail.com');
+		
+		if(!$ContactEmail->send())
+		{
+			echo 'MAIL can not send, please try again.';
+			echo 'Mailer Error: ' . $ContactEmail->ErrorInfo;
+		} 
+		else 
+		{
+			echo 'MAIL has been sent successfully.';
+		}
+		
+	/*send mail end*/
+	}    
+?>
+-->
+<!-- php script end here -->
+  </body>
+</html>
