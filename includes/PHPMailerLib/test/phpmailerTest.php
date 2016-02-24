@@ -690,7 +690,7 @@ class PHPMailerTest extends PHPUnit_Framework_TestCase
         $this->Mail->Body = 'Here is the text body';
         $this->Mail->Subject .= ': Plain + Multiple FileAttachments';
 
-        if (!$this->Mail->addAttachment('../examples/images/phpmailer.png')) {
+        if (!$this->Mail->addAttachment('../examples//images/phpmailer.png')) {
             $this->assertTrue(false, $this->Mail->ErrorInfo);
             return;
         }
@@ -831,7 +831,7 @@ EOT;
         $this->Mail->isHTML(true);
 
         if (!$this->Mail->addEmbeddedImage(
-            '../examples/images/phpmailer.png',
+            '../examples//images/phpmailer.png',
             'my-attach',
             'phpmailer.png',
             'base64',
@@ -860,7 +860,7 @@ EOT;
         $this->Mail->isHTML(true);
 
         if (!$this->Mail->addEmbeddedImage(
-            '../examples/images/phpmailer.png',
+            '../examples//images/phpmailer.png',
             'my-attach',
             'phpmailer.png',
             'base64',
@@ -948,7 +948,7 @@ EOT;
         $this->Mail->Subject .= ': iCal + inline';
         $this->Mail->isHTML(true);
         $this->Mail->addEmbeddedImage(
-            '../examples/images/phpmailer.png',
+            '../examples//images/phpmailer.png',
             'my-attach',
             'phpmailer.png',
             'base64',
